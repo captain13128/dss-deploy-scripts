@@ -116,6 +116,9 @@ rm "$OUT_DIR/load-core-addr-temp"
 # Mint Gov Token, send to the Faucet and set permissions if a new token
 if [[ "$newGovToken" == true ]]; then
     sethSend "$MCD_GOV" 'mint(address,uint256)' "$FAUCET" "$(seth --to-uint256 "$(seth --to-wei 1000000 ETH)")"
+    sethSend "$MCD_GOV" 'mint(address,uint256)' "0x1D5AfdaAAA6Ad835d59Fa01D08B2547d10092Dbc" "$(seth --to-uint256 "$(seth --to-wei 300000 ETH)")"
+    sethSend "$MCD_GOV" 'mint(address,uint256)' "0xABE2b5ec3b1104Bf3628c3F9083fA1EB76B0EED4" "$(seth --to-uint256 "$(seth --to-wei 300000 ETH)")"
+    sethSend "$MCD_GOV" 'mint(address,uint256)' "0xF541E6F46b1dE2FF09F004C1737Ec0a5885cD307" "$(seth --to-uint256 "$(seth --to-wei 300000 ETH)")"
     sethSend "$FAUCET" 'gulp(address)' "$MCD_GOV"
 
     # Use custom authority for the new GOV token

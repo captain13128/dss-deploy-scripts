@@ -1,133 +1,77 @@
 {
   "description": "Mainnet deployment",
-  "pauseDelay": "0",
-  "vat_line": "0",
-  "vow_wait": "172800",
-  "vow_dump": "250",
-  "vow_sump": "50000",
-  "vow_bump": "10000",
-  "vow_hump": "500000",
+  "pauseDelay": "172800",
+  "vat_line": "5000000000000",
+  "vow_wait": "0",
+  "vow_dump": "20",
+  "vow_sump": "1000",
+  "vow_bump": "200",
+  "vow_hump": "250",
   "jug_base": "0",
   "pot_dsr": "2",
-  "end_wait": "262800",
-  "esm_pit": "0x69076e44a9C70a67D5b79d95795Aba299083c275",
+  "end_wait": "604800",
+  "esm_pit": "0xDb7A67fb3a6135c9d5167675ca8560B4bCAee912",
   "esm_min": "50000",
   "flap_beg": "3",
-  "flap_ttl": "1800",
+  "flap_ttl": "600",
   "flap_tau": "259200",
   "flop_beg": "3",
   "flop_pad": "20",
   "flop_ttl": "600",
   "flop_tau": "259200",
   "import": {
-    "gov": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-    "authority": "0x9eF05f7F6deB616fd37aC3c959a2dDD25A54E4F5",
-    "proxyRegistry": "0x4678f0a6958e4D2Bc4F1BAF7Bc52E8F3564f3fE4",
-    "faucet": "0x0000000000000000000000000000000000000000"
+
+    "gov": null,
+    "authority": null,
+    "proxyRegistry": null,
+    "faucet": null
   },
   "tokens": {
     "ETH": {
       "import": {
         "gem": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "pip": "0x81FE72B5A8d1A857d176C3E7d5Bd2679A9B85763"
+        "pip": null
       },
-      "ilks": {
-        "A": {
-          "mat": "150",
-          "line": "0",
-          "dust": "20",
-          "duty": "4",
-          "chop": "13",
-          "lump": "50",
-          "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
-        }
-      }
-    },
-    "BAT": {
-      "import": {
-        "gem": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
-        "pip": "0xB4eb54AF9Cc7882DF0121d26c5b97E802915ABe6"
-      },
-      "ilks": {
-        "A": {
-          "mat": "150",
-          "line": "0",
-          "dust": "20",
-          "duty": "4",
-          "chop": "13",
-          "lump": "50000",
-          "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
-        }
-      }
-    },
-    "USDC": {
-      "import": {
-        "gem": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "pip": "0x77b68899b99b686F415d074278a9a16b336085A0"
+      "pipDeploy": {
+        "osmDelay": "3",
+        "type": "value",
+        "price": "16291"
       },
       "ilks": {
         "A": {
           "mat": "125",
-          "line": "0",
-          "dust": "20",
-          "duty": "20",
-          "chop": "13",
-          "lump": "50000",
+          "line": "3500000000",
+          "dust": "1000",
+          "duty": "4",
+          "chop": "7",
+          "lump": "10",
           "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
-        },
-        "B": {
-          "mat": "125",
-          "line": "0",
-          "dust": "20",
-          "duty": "20",
-          "chop": "13",
-          "lump": "50000",
-          "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
-        }
-      }
-    },
-    "TUSD": {
-      "import": {
-        "gem": "0x0000000000085d4780B73119b644AE5ecd22b376"
-      },
-      "ilks": {
-        "A": {
-          "mat": "120",
-          "line": "2000000",
-          "dust": "20",
-          "duty": "0",
-          "chop": "13",
-          "lump": "50000",
-          "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
+          "ttl": "21600",
+          "tau": "86400"
         }
       }
     },
     "WBTC": {
       "import": {
         "gem": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "pip": "0xf185d0682d50819263941e5f4EacC763CC5C6C42"
+        "pip": null
+      },
+      "pipDeploy": {
+        "osmDelay": "3",
+        "type": "value",
+        "price": "662332"
       },
       "ilks": {
         "A": {
-          "mat": "150",
-          "line": "10000000",
-          "dust": "20",
-          "duty": "1",
-          "chop": "13",
+          "mat": "125",
+          "line": "3500000000",
+          "dust": "1000",
+          "duty": "4",
+          "chop": "7",
           "lump": "1",
           "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
+          "ttl": "21600",
+          "tau": "86400"
         }
       }
     }

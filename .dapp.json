@@ -216,7 +216,7 @@
     "dsr-manager_4e897cf": {
       "deps": {
         "ds-test": "ds-test_eb7148d",
-        "dss-deploy": "dss-deploy_6a4e63d"
+        "dss-deploy": "dss-deploy_679a078"
       },
       "name": "dsr-manager",
       "repo": {
@@ -229,7 +229,7 @@
     "dss-cdp-manager_85fbf70": {
       "deps": {
         "ds-test": "ds-test_eb7148d",
-        "dss-deploy": "dss-deploy_6a4e63d"
+        "dss-deploy": "dss-deploy_679a078"
       },
       "name": "dss-cdp-manager",
       "repo": {
@@ -242,7 +242,7 @@
     "dss-deploy-pause-proxy-actions_7a78bfe": {
       "deps": {
         "ds-test": "ds-test_eb7148d",
-        "dss-deploy": "dss-deploy_6a4e63d"
+        "dss-deploy": "dss-deploy_679a078"
       },
       "name": "dss-deploy-pause-proxy-actions",
       "repo": {
@@ -252,7 +252,7 @@
         "url": "https://github.com/makerdao/dss-deploy-pause-proxy-actions"
       }
     },
-    "dss-deploy_6a4e63d": {
+    "dss-deploy_679a078": {
       "deps": {
         "ds-auth": "ds-auth_434bf46",
         "ds-guard": "ds-guard_12461a5",
@@ -261,15 +261,15 @@
         "ds-test": "ds-test_eb7148d",
         "ds-token": "ds-token_8943920",
         "ds-weth": "ds-weth_b5819d1",
-        "dss": "dss_4c34162",
+        "dss": "dss_4433006",
         "esm": "esm_85ca355"
       },
       "name": "dss-deploy",
       "repo": {
-        "name": "dss-deploy-6a4e63d",
+        "name": "dss-deploy_679a078",
         "ref": "HEAD",
-        "rev": "6a4e63d74f2bae4483e104d00b87fad359fd5a63",
-        "url": "https://github.com/makerdao/dss-deploy"
+        "rev": "4e6c3aedad8cfd6b078ea86ef744d7afeb2a97b2",
+        "url": "https://github.com/zorancuc/dss-deploy"
       }
     },
     "dss-proxy-actions_b376af8": {
@@ -286,7 +286,7 @@
         "url": "https://github.com/makerdao/dss-proxy-actions"
       }
     },
-    "dss_4c34162": {
+    "dss_4433006": {
       "deps": {
         "ds-test": "ds-test_eb7148d",
         "ds-token": "ds-token_8943920",
@@ -294,10 +294,10 @@
       },
       "name": "dss",
       "repo": {
-        "name": "dss-4c34162",
+        "name": "dss-9016699",
         "ref": "HEAD",
-        "rev": "4c341627d2d85fe7fcb3159c45b1ea0ce83e8751",
-        "url": "https://github.com/makerdao/dss"
+        "rev": "90166995d3b1d627150fbdf0fa37d57703b97dcb",
+        "url": "https://github.com/zorancuc/dss"
       }
     },
     "erc20_f322aac": {
@@ -455,7 +455,7 @@
   "this": {
     "deps": {
       "dsr-manager": "dsr-manager_4e897cf",
-      "dss-deploy": "dss-deploy_6a4e63d",
+      "dss-deploy": "dss-deploy_679a078",
       "dss-deploy-pause-proxy-actions": "dss-deploy-pause-proxy-actions_7a78bfe",
       "dss-proxy-actions": "dss-proxy-actions_b376af8",
       "flipper-mom": "flipper-mom_5600b63",
