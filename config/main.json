@@ -74,54 +74,6 @@
           "tau": "86400"
         }
       }
-    },
-    "RENBTC": {
-      "import": {
-        "gem": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
-        "pip": null
-      },
-      "pipDeploy": {
-        "osmDelay": "3",
-        "type": "value",
-        "price": "662332"
-      },
-      "ilks": {
-        "A": {
-          "mat": "125",
-          "line": "3500000000",
-          "dust": "1000",
-          "duty": "4",
-          "chop": "7",
-          "lump": "1",
-          "beg": "3",
-          "ttl": "21600",
-          "tau": "86400"
-        }
-      }
-    },
-    "RENZEC": {
-      "import": {
-        "gem": "0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2",
-        "pip": null
-      },
-      "pipDeploy": {
-        "osmDelay": "3",
-        "type": "value",
-        "price": "3654"
-      },
-      "ilks": {
-        "A": {
-          "mat": "125",
-          "line": "3500000000",
-          "dust": "1000",
-          "duty": "4",
-          "chop": "7",
-          "lump": "30",
-          "beg": "3",
-          "ttl": "21600",
-          "tau": "86400"
-        }
-      }
     }
   }
 }
