@@ -11,7 +11,7 @@
   "pot_dsr": "2",
   "end_wait": "604800",
   "esm_pit": "0xDb7A67fb3a6135c9d5167675ca8560B4bCAee912",
-  "esm_min": "50000",
+  "esm_min": "150000",
   "flap_beg": "3",
   "flap_ttl": "600",
   "flap_tau": "259200",
