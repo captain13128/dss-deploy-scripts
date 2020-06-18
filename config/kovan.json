@@ -43,10 +43,10 @@
           "dust": "1000",
           "duty": "4",
           "chop": "7",
-          "lump": "3",
+          "lump": "10",
           "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
+          "ttl": "21600",
+          "tau": "86400"
         }
       }
     },
@@ -69,8 +69,56 @@
           "chop": "7",
           "lump": "1",
           "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
+          "ttl": "21600",
+          "tau": "86400"
+        }
+      }
+    },
+    "RENBTC": {
+      "import": {
+        "gem": "0x3ad2d6827a2e3e4e5FEDB289e37B1dd924233b41",
+        "pip": null
+      },
+      "pipDeploy": {
+        "osmDelay": "3",
+        "type": "value",
+        "price": "662332"
+      },
+      "ilks": {
+        "A": {
+          "mat": "125",
+          "line": "3500000000",
+          "dust": "1000",
+          "duty": "4",
+          "chop": "7",
+          "lump": "1",
+          "beg": "3",
+          "ttl": "21600",
+          "tau": "86400"
+        }
+      }
+    },
+    "RENZEC": {
+      "import": {
+        "gem": "0xE16F50A30FA9f1E455530FBF2e8d90f87c11A566",
+        "pip": null
+      },
+      "pipDeploy": {
+        "osmDelay": "3",
+        "type": "value",
+        "price": "3000"
+      },
+      "ilks": {
+        "A": {
+          "mat": "125",
+          "line": "3500000000",
+          "dust": "1000",
+          "duty": "4",
+          "chop": "7",
+          "lump": "30",
+          "beg": "3",
+          "ttl": "21600",
+          "tau": "86400"
         }
       }
     }
