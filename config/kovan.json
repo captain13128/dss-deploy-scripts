@@ -2,11 +2,11 @@
   "description": "Mainnet deployment",
   "pauseDelay": "172800",
   "vat_line": "5000000000000",
-  "vow_wait": "0",
-  "vow_dump": "20",
-  "vow_sump": "1000",
-  "vow_bump": "200",
-  "vow_hump": "250",
+  "vow_wait": "561600",
+  "vow_dump": "500",
+  "vow_sump": "350000",
+  "vow_bump": "20000",
+  "vow_hump": "25000",
   "jug_base": "0",
   "pot_dsr": "2",
   "end_wait": "604800",
@@ -20,6 +20,7 @@
   "flop_ttl": "600",
   "flop_tau": "259200",
   "import": {
+
     "gov": null,
     "authority": null,
     "proxyRegistry": null,
@@ -68,54 +69,6 @@
           "duty": "4",
           "chop": "7",
           "lump": "1",
-          "beg": "3",
-          "ttl": "21600",
-          "tau": "86400"
-        }
-      }
-    },
-    "RENBTC": {
-      "import": {
-        "gem": "0x3ad2d6827a2e3e4e5FEDB289e37B1dd924233b41",
-        "pip": null
-      },
-      "pipDeploy": {
-        "osmDelay": "3",
-        "type": "value",
-        "price": "662332"
-      },
-      "ilks": {
-        "A": {
-          "mat": "125",
-          "line": "3500000000",
-          "dust": "1000",
-          "duty": "4",
-          "chop": "7",
-          "lump": "1",
-          "beg": "3",
-          "ttl": "21600",
-          "tau": "86400"
-        }
-      }
-    },
-    "RENZEC": {
-      "import": {
-        "gem": "0xE16F50A30FA9f1E455530FBF2e8d90f87c11A566",
-        "pip": null
-      },
-      "pipDeploy": {
-        "osmDelay": "3",
-        "type": "value",
-        "price": "3000"
-      },
-      "ilks": {
-        "A": {
-          "mat": "125",
-          "line": "3500000000",
-          "dust": "1000",
-          "duty": "4",
-          "chop": "7",
-          "lump": "30",
           "beg": "3",
           "ttl": "21600",
           "tau": "86400"
